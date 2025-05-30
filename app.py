@@ -83,7 +83,7 @@ if page == "Home":
     members = [
         {
             "name": "Ahmad Azhar Naufal Farizky",
-            "photo": "ahmad.jpg, 
+            "photo": "ahmad.jpg", 
             "li": "https://linkedin.com/in/ahmad-azhar-naufal-farizky-3b3b3b2b",
         },
         {
