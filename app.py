@@ -149,7 +149,7 @@ elif page == "Machine Learning App":
 
         input_df = preprocess_input(age, bmi, children, sex, smoker, region)
         
-        prediction = LGBM_Insurance_Charges_Prediction_Model.predict(input_df)[0]
+        prediction = np.exp(LGBM_Insurance_Charges_Prediction_Model.predict(input_df)[0])
 
         st.subheader("💵 Estimasi Biaya Medis Tahunan")
         st.metric("Charges (USD)", f"${prediction:,.2f}")
