@@ -93,7 +93,7 @@ if page == "Home":
         },
         {
             "name": "Latif Dwi Mardani",
-            "photo": "profile.svg",
+            "photo": "latif.jpg",
             "li": "https://linkedin.com/in/latif-dwi-mardani-3b3b3b2d",
         },
         {
