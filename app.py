@@ -17,7 +17,7 @@ def load_model():
         model = pickle.load(file)
     return model
 
-lgbm_insurance_charges_prediction = load_model()
+LGBM_Insurance_Charges_Prediction_Model = load_model()
 
 
 def calculate_bmi(height, weight):
@@ -142,14 +142,14 @@ elif page == "Machine Learning App":
 
     if st.button("Predict Medical Cost"):
         try:
-            model = lgbm_insurance_charges_prediction
+            model = LGBM_Insurance_Charges_Prediction_Model
         except Exception as e:
             st.error(f"⚠️ **Error loading model**: {e}. Pastikan file model Anda benar.")
             st.stop()
 
         input_df = preprocess_input(age, bmi, children, sex, smoker, region)
         
-        prediction = lgbm_insurance_charges_prediction.predict(input_df)[0]
+        prediction = LGBM_Insurance_Charges_Prediction_Model.predict(input_df)[0]
 
         st.subheader("💵 Estimasi Biaya Medis Tahunan")
         st.metric("Charges (USD)", f"${prediction:,.2f}")
