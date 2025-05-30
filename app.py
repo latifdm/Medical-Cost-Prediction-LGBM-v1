@@ -88,12 +88,12 @@ if page == "Home":
         },
         {
             "name": "Kristina Sarah Yuliana",
-            "photo": "profile.svg",
+            "photo": "kristina.jpg",
             "li": "https://linkedin.com/in/kristina-sarah-yuliana-3b3b3b2c",
         },
         {
             "name": "Latif Dwi Mardani",
-            "photo": "latif.jpg",
+            "photo": "latiff.jpg",
             "li": "https://linkedin.com/in/latif-dwi-mardani-3b3b3b2d",
         },
         {
@@ -103,7 +103,7 @@ if page == "Home":
         },
         {
             "name": "Ayasha Naila Ismunandar",
-            "photo": "profile.svg",
+            "photo": "ayasha.jpg",
             "li": "https://linkedin.com/in/ayasha-naila-ismunandar-3b3b3b2f",
         },
     ]
